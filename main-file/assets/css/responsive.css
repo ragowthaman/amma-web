@@ -1,0 +1,240 @@
+/* Small Devices (Portrait Phones, 575px and Down) */
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .mainmenu {
+        display: none;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .preheader-item {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .preheader-area .col-lg-3:last-child .preheader-item {
+        margin-bottom: 0;
+    }
+    .phone-mail a {
+        display: block;
+    }
+    .hero-text h2 {
+        font-size: 40px;
+    }
+    .hero-iamge {
+        margin-top: 65px;
+    }
+    .about-profile-img {
+        margin-bottom: 65px;
+    }
+    .about-btn .seo-btn {
+        margin-right: 10px;
+        padding: 10px 15px;
+    }
+    .single-about-box,
+    .single-funfact,
+    .single-service,
+    .single-pricing-wrap,
+    .single-blog-wrap,
+    .single-widget-wrap {
+        margin-bottom: 50px;
+    }
+    .about-bottom .col-lg-4:last-child .single-about-box,
+    #funfact-area .col-lg-3:last-child .single-funfact,
+    #service-area .col-lg-4:last-child .single-service,
+    #case-studies .col-lg-4:last-child .single-case-studies,
+    #pricing-area .col-lg-4:last-child .single-pricing-wrap,
+    #blog-area .col-lg-4:last-child .single-blog-wrap,
+    .blog-page-content .col-lg-6:last-child .single-blog-wrap,
+    .footer-widget .col-lg-3 .single-widget-wrap {
+        margin-bottom: 0;
+    }
+    .newsletter-content h2 {
+        font-size: 28px;
+    }
+    .single-testimonial {
+        border-right: 0;
+        text-align: center;
+    }
+    .client-thumb,
+    .client-feedback {
+        display: block;
+    }
+    .testimonial-content-wrap .owl-item .client-thumb img {
+        margin: auto;
+    }
+    .client-feedback {
+        padding: 50px 10px;
+    }
+    #slider-area .owl-controls .owl-nav {
+        display: none;
+    }
+    .seo-pagination {
+        margin-top: 30px;
+    }
+    .sidebar-area {
+        margin-top: 80px;
+    }
+    .single-comment.reply {
+        margin-left: 30px;
+    }
+    .page-title-wrap h2 {
+        font-size: 30px;
+    }
+    .case-details li {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* Small Devices (Landscape Phones, 576px and up) */
+
+@media only screen and (min-width: 576px) {
+    .mainmenu {
+        display: none;
+    }
+    .hero-iamge {
+        margin-top: 65px;
+    }
+    .about-profile-img {
+        margin-bottom: 65px;
+    }
+    .single-about-box,
+    .single-funfact,
+    .single-service,
+    .single-pricing-wrap,
+    .single-blog-wrap,
+    .single-widget-wrap {
+        margin-bottom: 50px;
+    }
+    .about-bottom .col-lg-4:last-child .single-about-box,
+    #funfact-area .col-lg-3:nth-child(1n+3) .single-funfact,
+    #service-area .col-lg-4:last-child .single-service,
+    #case-studies .col-lg-4:nth-child(1n+5) .single-case-studies,
+    #pricing-area .col-lg-4:last-child .single-pricing-wrap,
+    #blog-area .col-lg-4:last-child .single-blog-wrap,
+    .footer-widget .col-lg-3 .single-widget-wrap,
+    #service-page-wrap .col-lg-4:nth-child(1n+9) .single-service,
+    .home__2 .col-lg-4:nth-child(1n+5) .single-service {
+        margin-bottom: 0;
+    }
+    .about-bottom .col-lg-4,
+    #service-area .col-lg-4,
+    #pricing-area .col-lg-4,
+    #blog-area .col-lg-4 {
+        margin: auto;
+    }
+    .about-btn {
+        text-align: center;
+    }
+    #slider-area .owl-controls .owl-nav {
+        display: none;
+    }
+    .sidebar-area {
+        margin-top: 80px;
+    }
+    .single-comment.reply {
+        margin-left: 50px;
+    }
+    .page-title-wrap h2 {
+        font-size: 40px;
+    }
+    .case-details li {
+        float: left;
+        width: 50%;
+    }
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .mainmenu {
+        display: none;
+    }
+    .hero-text h2 {
+        font-size: 40px;
+    }
+    #slider-area .hero-text h2 {
+        font-size: 65px;
+    }
+    .about-btn {
+        text-align: left;
+    }
+    .about-bottom .col-lg-4,
+    #service-area .col-lg-4,
+    #pricing-area .col-lg-4,
+    #blog-area .col-lg-4 {
+        margin: initial;
+    }
+    .single-about-box,
+    .single-pricing-wrap,
+    .single-blog-wrap,
+    #service-page-wrap .col-lg-4:nth-child(1n+8) .single-service,
+    .home__2 .col-lg-4:nth-child(1n+5) .single-service {
+        margin-bottom: 0;
+    }
+    #slider-area .owl-controls .owl-nav {
+        display: none;
+    }
+    .sidebar-area {
+        margin-top: 80px;
+    }
+    .single-comment.reply {
+        margin-left: 60px;
+    }
+}
+
+/* Large Devices (Desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .slicknav_menu {
+        display: none;
+    }
+    .hero-text h2 {
+        font-size: 65px;
+    }
+    .mainmenu {
+        display: block;
+    }
+    .about-btn .seo-btn {
+        margin-right: 35px;
+        padding: 12px 35px;
+    }
+    #case-studies .col-lg-4:nth-child(1n+4) .single-case-studies,
+    #service-page-wrap .col-lg-4:nth-child(1n+7) .single-service,
+    .home__2 .col-lg-4:nth-child(1n+4) .single-service {
+        margin-bottom: 0;
+    }
+    .hero-iamge {
+        margin-top: 0;
+    }
+    .about-profile-img {
+        margin-bottom: 0;
+    }
+    .single-about-box,
+    .single-funfact,
+    .single-service,
+    .single-pricing-wrap,
+    .single-blog-wrap,
+    .single-widget-wrap {
+        margin-bottom: 0;
+    }
+    #slider-area .single-slide-wrap .hero-text h2 {
+        font-size: 48px;
+    }
+    #slider-area .owl-controls .owl-nav {
+        display: block;
+    }
+    .sidebar-area {
+        margin-top: 0;
+    }
+    .single-comment.reply {
+        margin-left: 70px;
+    }
+    .page-title-wrap h2 {
+        font-size: 55px;
+    }
+    .case-details li {
+        float: left;
+        width: 25%;
+    }
+}
